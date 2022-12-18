@@ -20,11 +20,11 @@
       <form action="{{url_for('finPao')}}" method="POST" class="form-inline">
         <button class="btn btn-outline-light" type="submit" style="border: 0px; color: #28285e;">🤩Fin Pao</button>
       </form>
-      <form action="{{url_for('finPao')}}" method="POST" class="form-inline">
+      <form action="{{url_for('siaoPao')}}" method="POST" class="form-inline">
         <button class="btn btn-outline-light" type="submit" style="border: 0px; color: #28285e;">😘Siao Pao</button>
       </form>
-      <form action="{{url_for('finPao')}}" method="POST" class="form-inline">
-        <button class="btn btn-outline-light" type="submit" style="border: 0px; color: #28285e;">😆Kum Pao</button>
+      <form action="{{url_for('khumPao')}}" method="POST" class="form-inline">
+        <button class="btn btn-outline-light" type="submit" style="border: 0px; color: #28285e;">😆Khum Pao</button>
       </form>
     </nav>
     <section id="chefs" class="chefs section-bg">
@@ -106,7 +106,7 @@
                 </p>
               </div>
               <div class="GoBtn">
-                <form action="{{url_for('finPao')}}" method="POST">
+                <form action="{{url_for('siaoPao')}}" method="POST">
                   <button type="submit" class="btn btn-outline-danger">Go to Siao Pao!</button>
                 </form>
               </div>
@@ -119,20 +119,17 @@
                 <img src="{{ url_for('static', filename='image/4.svg') }}" class="img-fluid" alt="">
               </div>
               <div class="app-info">
-                <h4 style="font-size: 22px; font-weight: bold;">😆Kum Pao</h4>
+                <h4 style="font-size: 22px; font-weight: bold;">😆Khum Pao</h4>
                 <p style="font-size: 18px; font-style: normal;">
-
                   บริการน้องตัวเล็ก (เวอร์ชั่นพัฒนา) สำหรับผู้ที่ต้องการมุกไปใช้ในการเฉพาะกิจต่างๆ อาทิ ประกาศลงสื่อสังคมออนไลน์ 
                   บริการ "ขำป่าว" จะช่วยเป็นคู่หูผู้คิดมุกตลกให้กับท่าน 
                   ผ่านแบบจำลองปัญญาดิษฐ์ของเราที่ผ่านการเรียนรู้ข้อความจากบทความนิยาย 
-                  แต่เนื่องด้วยข้อมูลมุกตลกที่ใช้ในการฝึกน้องมีแค่ 500มุก น้องจึงยังไวต่อโลกมากๆ 
-
-               
+                  แต่เนื่องด้วยข้อมูลมุกตลกที่ใช้ในการฝึกน้องมีแค่ 500มุก น้องจึงยังไวต่อโลกมากๆ
                 </p>
               </div>
               <div class="GoBtn">
-                <form action="{{url_for('finPao')}}" method="POST">
-                  <button type="submit" class="btn btn-outline-danger">Go to Kum Pao!</button>
+                <form action="{{url_for('khumPao')}}" method="POST">
+                  <button type="submit" class="btn btn-outline-danger">Go to Khum Pao!</button>
                 </form>
               </div>
             </div>
