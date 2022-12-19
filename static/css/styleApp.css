@@ -1,0 +1,88 @@
+* {
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    color: #28285e;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.navbar {
+    padding-left: 16%;
+}
+  
+.navbar-brand {
+    padding-right: 50px;
+}
+
+.slider {
+    /* text-align: center; */
+    height: 100px;
+    width: 350px;
+}
+
+.slider .show-value {
+    position: relative;
+    width: 100%;
+}
+
+.slider .show-value span {
+    position: absolute;
+    margin-left: 5px;
+}
+
+.slider input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 2px;
+    background: black;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+}
+
+.slider input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 8px;
+    height: 13px;
+    background: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.slider .range {
+    margin-top: 2px;
+    position: relative;
+}
+
+.slider .range div {
+    position: absolute;
+}
+
+.slider .range div:nth-child(2) {
+    right: 0px;
+}
+
+.resultBox {
+    vertical-align: middle;
+    text-align: justify;
+    padding-top: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 4%;
+    background-color: white;
+    border: solid 0.7px rgba(108, 117, 125, 0.35);
+    border-radius: 8px;
+  }
